@@ -1,1 +1,56 @@
-Calc
+<!DOCTYPE html>
+<html>
+    <!-- desenvolvido por Jonathan -->
+    <meta charset="UTF8">
+
+<body>
+<canvas id='canv'></canvas>
+<div class="box" id="B">
+    <h1>Calculadora Front-End</h1>
+     <div id="resultado">
+    </div>
+    <label for="calculo">
+                <p>
+                    Digite o primeiro valor:        
+                    <br>
+                    <input id="valor1">
+                </p>  
+                <p>
+                    Digite o segundo valor:
+                    <br>
+                    <input id="valor2">
+                </p>
+        <p>
+            <button onclick="somar()">Somar</button>
+            <button onclick="multiplicar()">Multiplicar</button>
+            <Button onclick="subtrair()">Subtrair</Button>
+            <button onclick="dividir()">Dividir</button>
+        </p>
+    </label>
+</div>
+<link rel="stylesheet" href="index.css">
+<script src="index.js"></script>
+</body>
+
+<footer>
+<div class="box" style="width: fit-content; padding: 5px 20px;" id="credit">
+    <a href="https://github.com/Jhon171819/HTML" style="color: aliceblue; text-decoration: none;" target="_blank">Códigos por Jonathan Costa Moura</a>
+</div>
+
+<div class="foot">
+<button onclick="temaPadrao()" style="background-color: #00FF41;" class="tema">Padrão</button>
+<button onclick="temaAzul()" style="background-color: #3366ff;" class="tema">Azul</button>
+<button onclick="temaRed()" style="background-color: #cc154e;" class="tema">Vermelho</button>
+<button onclick="temaGold()" style="background-color: #e5b80b;" class="tema">Dourado</button>
+<button onclick="temaSilver()" style="background-color: #bbc2cc;" class="tema">Prateado</button>
+<button onclick="temaRuby()" style="background-color: #9b111e;" class="tema">Ruby</button>
+<button onclick="temaSapph()" style="background-color: #0f52ba;" class="tema">Safira</button>
+<button onclick="temaEmer()" style="background-color: #50c878;" class="tema">Esmeralda</button>
+<button onclick="temaDiam()" style="background-color: #b9f2ff;" class="tema">Diamante</button>
+<button onclick="temaPearl()" style="background-color: #eae0c8;" class="tema">Pérola</button>
+<button onclick="temaPlat()" style="background-color: #9c8eb8;" class="tema">Platina</button>
+</div>
+
+</footer>
+
+</html>
