@@ -1,7 +1,12 @@
+/* Estilizado por Lumi de Alencar Araújo */
+
 :root {
     --neon: #00FF41;
 }
 
+* {
+    transition-duration: 0.33s;
+}
 
 body {
     font-family: monospace;
@@ -49,7 +54,6 @@ p > input {
     margin: 10px;
     text-align: center;
     color: black;
-    text-shadow: 0 0 5px var(--neon);
 }
 
 p > input:hover {
@@ -119,7 +123,6 @@ label {
     bottom: 0;
     background-color: black;
     border-top: 2px solid var(--neon);
-    align-items: center;
   }
 
   .tema {
